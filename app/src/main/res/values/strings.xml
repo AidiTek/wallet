@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Wallet</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="invoice">Счета</string>
+    <string name="outcome">Расходы</string>
+    <string name="income">Доходы</string>
+    <string name="add">Добавить</string>
+    <string name="leisure">Досуг</string>
+    <string name="main">Главная</string>
+    <string name="graphics">Графика</string>
+    <string name="reminder">Напоминание</string>
+    <string name="Sharewithfriends">Поделиться с друзьями</string>
+    <string name="Contactingthedeveloper">Связь с разраотчиком</string>
+    <string name="avatar_name">Абдымомунов Айтенир</string>
+    <string name="remnant">Остаток:</string>
+    <string name="_8_233">8 233</string>
+    <string name="defoult_web_client">311395619161-tlv4aeh32a68j1v264snfdp6o4csa1dj.apps.googleusercontent.com</string>
+</resources>

@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackgroundBlue"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".presentation.fragments.fragmentsOutlayAndInlay.fragmentOutlayInAddItemFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/et_countInAddFragment"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:textAlignment="center"
+            android:textColorHint="@color/hintGrey"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/choosedButen"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_coinInAddFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/coin_add_fragment"
+            app:layout_constraintBottom_toBottomOf="@+id/et_countInAddFragment"
+            app:layout_constraintStart_toEndOf="@+id/et_countInAddFragment"
+            app:layout_constraintTop_toTopOf="@+id/et_countInAddFragment" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout3">
+
+        <TextView
+            android:id="@+id/tv_invoiceInAddFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Cчет"
+            android:textColor="@color/percentageGrey"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_chosedInvoiseInAddFragmnent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Основной"
+            android:textColor="@color/choosedButen"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_invoiceInAddFragment" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Категорий"
+            android:textColor="@color/percentageGrey"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_leisureInAddFromgent"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/laiser_icone_in_addfragment24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Досуг"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="@+id/iv_leisureInAddFromgent"
+            app:layout_constraintStart_toStartOf="@+id/iv_leisureInAddFromgent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_leisureInAddFromgent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Кафе"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView2"
+            app:layout_constraintEnd_toEndOf="@+id/iv_cofeInAddFromgent"
+            app:layout_constraintStart_toStartOf="@+id/iv_cofeInAddFromgent"
+            app:layout_constraintTop_toTopOf="@+id/textView2" />
+
+        <ImageView
+            android:id="@+id/iv_cofeInAddFromgent"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginEnd="100dp"
+            android:src="@drawable/fork_spoon_in_addfragment_24dp_"
+            app:layout_constraintBottom_toTopOf="@+id/textView2"
+            app:layout_constraintEnd_toStartOf="@+id/iv_heartInAddFromgent"
+            app:layout_constraintStart_toEndOf="@+id/iv_leisureInAddFromgent"
+            app:layout_constraintTop_toTopOf="@+id/iv_leisureInAddFromgent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Дом"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView3"
+            app:layout_constraintEnd_toEndOf="@+id/iv_houseInAddFromgent"
+            app:layout_constraintStart_toStartOf="@+id/iv_houseInAddFromgent"
+            app:layout_constraintTop_toTopOf="@+id/textView3" />
+
+        <ImageView
+            android:id="@+id/iv_houseInAddFromgent"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginBottom="1dp"
+            android:src="@drawable/house_24dp_in_addfragement"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_cofeInAddFromgent"
+            app:layout_constraintEnd_toStartOf="@+id/iv_heartInAddFromgent"
+            app:layout_constraintStart_toEndOf="@+id/iv_leisureInAddFromgent"
+            app:layout_constraintTop_toTopOf="@+id/iv_cofeInAddFromgent" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Здаровье"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView4"
+            app:layout_constraintEnd_toEndOf="@+id/iv_heartInAddFromgent"
+            app:layout_constraintStart_toStartOf="@+id/iv_heartInAddFromgent"
+            app:layout_constraintTop_toTopOf="@+id/textView4" />
+
+        <ImageView
+            android:id="@+id/iv_heartInAddFromgent"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginEnd="22dp"
+            android:src="@drawable/heart_in_addfragment_24dp"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_houseInAddFromgent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/iv_houseInAddFromgent" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="Образавание"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="@+id/iv_educationInAddFromgent"
+            app:layout_constraintStart_toStartOf="@+id/iv_educationInAddFromgent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_educationInAddFromgent" />
+
+        <ImageView
+            android:id="@+id/iv_educationInAddFromgent"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/education_in_addfragment"
+            app:layout_constraintEnd_toEndOf="@+id/iv_leisureInAddFromgent"
+            app:layout_constraintStart_toStartOf="@+id/iv_leisureInAddFromgent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Подарки"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView5"
+            app:layout_constraintEnd_toEndOf="@+id/iv_presentInAddFromgent"
+            app:layout_constraintStart_toStartOf="@+id/iv_presentInAddFromgent"
+            app:layout_constraintTop_toTopOf="@+id/textView5" />
+
+        <ImageView
+            android:id="@+id/iv_presentInAddFromgent"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/present_icone_in_adfragment_24dp"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_educationInAddFromgent"
+            app:layout_constraintEnd_toEndOf="@+id/iv_cofeInAddFromgent"
+            app:layout_constraintStart_toStartOf="@+id/iv_cofeInAddFromgent"
+            app:layout_constraintTop_toTopOf="@+id/iv_educationInAddFromgent" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Продукты"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView6"
+            app:layout_constraintEnd_toEndOf="@+id/iv_productsInAddFromgent"
+            app:layout_constraintStart_toStartOf="@+id/iv_productsInAddFromgent"
+            app:layout_constraintTop_toTopOf="@+id/textView6" />
+
+        <ImageView
+            android:id="@+id/iv_productsInAddFromgent"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/products_icone_24dp_inadfragment"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_presentInAddFromgent"
+            app:layout_constraintEnd_toEndOf="@+id/iv_houseInAddFromgent"
+            app:layout_constraintStart_toStartOf="@+id/iv_houseInAddFromgent"
+            app:layout_constraintTop_toTopOf="@+id/iv_presentInAddFromgent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Продукты"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView8"
+            app:layout_constraintEnd_toEndOf="@+id/iv_familyInAddFromgent"
+            app:layout_constraintStart_toStartOf="@+id/iv_familyInAddFromgent"
+            app:layout_constraintTop_toTopOf="@+id/textView8" />
+
+        <ImageView
+            android:id="@+id/iv_familyInAddFromgent"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/famaly_icone_24dp_inadfragment"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_productsInAddFromgent"
+            app:layout_constraintEnd_toEndOf="@+id/iv_heartInAddFromgent"
+            app:layout_constraintStart_toStartOf="@+id/iv_heartInAddFromgent"
+            app:layout_constraintTop_toTopOf="@+id/iv_productsInAddFromgent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Транспорт"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView9"
+            app:layout_constraintEnd_toEndOf="@+id/iv_transportInAddFromgent"
+            app:layout_constraintStart_toStartOf="@+id/iv_transportInAddFromgent"
+            app:layout_constraintTop_toTopOf="@+id/textView9" />
+
+        <ImageView
+            android:id="@+id/iv_transportInAddFromgent"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/transport_icon_bus_24dp"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_sportInAddFromgent"
+            app:layout_constraintEnd_toEndOf="@+id/iv_presentInAddFromgent"
+            app:layout_constraintStart_toStartOf="@+id/iv_presentInAddFromgent"
+            app:layout_constraintTop_toTopOf="@+id/iv_sportInAddFromgent" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Спорт"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="@+id/iv_sportInAddFromgent"
+            app:layout_constraintStart_toStartOf="@+id/iv_sportInAddFromgent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_sportInAddFromgent" />
+
+        <ImageView
+            android:id="@+id/iv_sportInAddFromgent"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/sport_icon_24dp"
+            app:layout_constraintEnd_toEndOf="@+id/iv_educationInAddFromgent"
+            app:layout_constraintStart_toStartOf="@+id/iv_educationInAddFromgent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout4">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Коментарий"
+            android:textColor="@color/percentageGrey"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/ed_addcomentary_inaddfragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/choosedButen"
+            android:hint="Коментарий"
+            android:textColorHint="@color/hintGrey"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

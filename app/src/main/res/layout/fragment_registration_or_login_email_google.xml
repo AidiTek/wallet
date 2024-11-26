@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackgroundBlue"
+    android:orientation="vertical"
+    tools:context=".presentation.firstOpenProject.RegistrationOrLoginEmailGoogle">
+
+    <TextView
+        android:id="@+id/tv_registratin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:text="Чтобы не потерять данные, пройдите регистрацию"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_registration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/fabBlue"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="Регистрация"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/transparent"
+        android:gravity="center"
+        android:text="Войти"
+        android:textSize="16sp"
+        android:textColor="@color/choosedButen" />
+
+    <TextView
+        android:id="@+id/tv_loginWith"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="Войти с помощью"
+        android:textColor="@color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/iv_google_sign_in"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:padding="6dp"
+            android:background="@drawable/backgraound_google"
+            android:src="@drawable/icons8_google"
+            android:layout_gravity="center" />
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_loginWithoutRegistration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:textSize="16sp"
+            android:backgroundTint="@android:color/transparent"
+            android:layout_marginBottom="40dp"
+            android:text="Продолжить без создание акаунта"
+            android:textColor="@color/choosedButen" />
+
+    </FrameLayout>
+
+
+</LinearLayout>

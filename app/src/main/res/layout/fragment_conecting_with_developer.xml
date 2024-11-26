@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackgroundBlue"
+    android:orientation="vertical"
+    tools:context=".presentation.fragments.conectingWithDeveloperFragment">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:backgroundTint="@color/hintGrey"
+        android:hint="Тема сообщение"
+        android:textColor="@color/white"
+        android:textColorHint="@color/hintGrey"
+        android:textSize="14dp" />
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="22dp"
+    android:layout_marginRight="22dp"
+    android:paddingBottom="10dp">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/hintGrey"
+        android:hint="Ваша почта"
+        android:textColor="@color/white"
+        android:textColorHint="@color/percentageGrey"
+        android:textSize="14sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/hintGrey"
+        android:text="Ответ будет выслан сюда"
+        android:layout_gravity="bottom"
+        android:paddingTop="32dp"
+        android:layout_marginLeft="4dp"
+        android:textSize="10sp" />
+
+</FrameLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:backgroundTint="@color/hintGrey"
+        android:hint="Сообщение"
+        android:textColor="@color/white"
+        android:textColorHint="@color/hintGrey"
+        android:textSize="14sp" />
+
+
+</LinearLayout>

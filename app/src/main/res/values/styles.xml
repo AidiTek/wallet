@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <style name="CastomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/CustomTabTextAperance</item>
+        <item name="tabBackground">@color/acttionbarSidebarBlue</item>
+    </style>
+    
+    <style name="CustomTabTextAperance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    
+    <style name="CustomAlertDialogThem" parent="Theme.MaterialComponents.Dialog.Alert">
+        <item name="android:colorPrimary">@color/choosedButen</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:background">@color/itemBackgraundGray</item>
+    </style>
+    
+</resources>

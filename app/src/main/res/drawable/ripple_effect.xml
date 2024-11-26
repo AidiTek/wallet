@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/white"> <!-- Цвет Ripple -->
+    <item>
+        <shape android:shape="oval"> <!-- Делаем Ripple круговым -->
+            <solid android:color="@color/acttionbarSidebarBlue" /><!-- Прозрачный фон -->
+        </shape>
+    </item>
+</ripple>

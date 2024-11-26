@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.wallet.presentation.fragments.mainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_allOperatonFragment"
+            app:destination="@id/allOperatonFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_addOperationFragment"
+            app:destination="@id/addOperationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/allOperatonFragment"
+        android:name="com.example.wallet.presentation.fragments.allOperatonFragment"
+        android:label="allOperatonFragment" />
+    <fragment
+        android:id="@+id/addOperationFragment"
+        android:name="com.example.wallet.presentation.fragments.addOperationFragment"
+        android:label="fragment_add_operation"
+        tools:layout="@layout/fragment_add_operation" />
+    <fragment
+        android:id="@+id/conectingWithDeveloperFragment"
+        android:name="com.example.wallet.presentation.fragments.conectingWithDeveloperFragment"
+        android:label="fragment_conecting_with_developer"
+        tools:layout="@layout/fragment_conecting_with_developer" />
+    <fragment
+        android:id="@+id/graphicsFragment"
+        android:name="com.example.wallet.presentation.fragments.graphicsFragmnet"
+        android:label="fragment_graphics_fragmnet"
+        tools:layout="@layout/fragment_graphics_fragmnet" />
+    <fragment
+        android:id="@+id/invoiceFragment"
+        android:name="com.example.wallet.presentation.fragments.invoiceFragmnet"
+        android:label="fragment_invoice_fragmnet"
+        tools:layout="@layout/fragment_invoice_fragmnet" />
+    <fragment
+        android:id="@+id/reminderFragment"
+        android:name="com.example.wallet.presentation.fragments.reminderFragment"
+        android:label="fragment_reminder"
+        tools:layout="@layout/fragment_reminder" />
+    <fragment
+        android:id="@+id/fragmentDay"
+        android:name="com.example.wallet.presentation.fragments.fragmentsDaysPeriudsOperation.fragmentDay"
+        android:label="fragment_day"
+        tools:layout="@layout/fragment_day_operation" />
+    <fragment
+        android:id="@+id/fragmentsYear"
+        android:name="com.example.wallet.presentation.fragments.fragmentsDaysPeriudsOperation.fragmentsYear"
+        android:label="fragment_fragments_year"
+        tools:layout="@layout/fragment_fragments_year_operation" />
+    <fragment
+        android:id="@+id/fragmentMonth"
+        android:name="com.example.wallet.presentation.fragments.fragmentsDaysPeriudsOperation.fragmentMonth"
+        android:label="fragment_month"
+        tools:layout="@layout/fragment_month_operation" />
+    <fragment
+        android:id="@+id/fragmentWekk"
+        android:name="com.example.wallet.presentation.fragments.fragmentsDaysPeriudsOperation.fragmentWekk"
+        android:label="fragment_wekk"
+        tools:layout="@layout/fragment_wekk_operation" />
+    <fragment
+        android:id="@+id/itemInformationFragment"
+        android:name="com.example.wallet.presentation.fragments.itemInformationFragment"
+        android:label="fragment_item_information"
+        tools:layout="@layout/fragment_item_information" />
+    <fragment
+        android:id="@+id/registrationOrLoginEmailGoogle"
+        android:name="com.example.wallet.presentation.firstOpenProject.RegistrationOrLoginEmailGoogle"
+        android:label="fragment_registration_or_login_email_google"
+        tools:layout="@layout/fragment_registration_or_login_email_google" >
+        <action
+            android:id="@+id/action_registrationOrLoginEmailGoogle_to_helloWindow"
+            app:destination="@id/helloWindow" />
+        <action
+            android:id="@+id/action_registrationOrLoginEmailGoogle_to_registrationFragment"
+            app:destination="@id/registrationFragment" />
+        <action
+            android:id="@+id/action_registrationOrLoginEmailGoogle_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.wallet.presentation.firstOpenProject.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addMainInvoice"
+        android:name="com.example.wallet.presentation.firstOpenProject.AddMainInvoice"
+        android:label="fragment_add_main_invoice"
+        tools:layout="@layout/fragment_add_main_invoice" >
+        <action
+            android:id="@+id/action_addMainInvoice_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/helloWindow"
+        android:name="com.example.wallet.presentation.firstOpenProject.HelloWindow"
+        android:label="fragment_hello_window"
+        tools:layout="@layout/fragment_hello_window" >
+        <action
+            android:id="@+id/action_helloWindow_to_addMainInvoice"
+            app:destination="@id/addMainInvoice" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="com.example.wallet.presentation.firstOpenProject.registrationFragment"
+        android:label="fragment_registration"
+        tools:layout="@layout/fragment_registration" >
+        <action
+            android:id="@+id/action_registrationFragment_to_addMainInvoice"
+            app:destination="@id/addMainInvoice" />
+        <action
+            android:id="@+id/action_registrationFragment_to_helloWindow"
+            app:destination="@id/helloWindow" />
+    </fragment>
+</navigation>

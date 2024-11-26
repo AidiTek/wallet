@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="itemBackgraundGray">#4F4F4F</color>
+    <color name="hintGrey">#636363</color>
+    <color name="percentageGrey">#BABABA</color>
+    <color name="grey">#7E7E7E</color>
+    <color name="choosedButen">#00F6FF</color>
+    <color name="acttionbarSidebarBlue">#6A48D7</color>
+    <color name="mainBackgroundBlue">#200772</color>
+    <color name="tabNotChoosedButten">#412C84</color>
+    <color name="sportOrange">#F9480D</color>
+    <color name="choosedImage">#448AFF</color>
+    <color name="famelyGreen">#AAFF00</color>
+    <color name="productGrenn">#00FF37</color>
+    <color name="transporBlue">#001AFF</color>
+    <color name="fabBlue">#4C62FF</color>
+    <color name="presentRed">#FF417A</color>
+    <color name="educationBlue">#448AFF</color>
+    <color name="leisureGreen">#00B227</color>
+    <color name="cafeBlue">#A500FF</color>
+    <color name="homeOrange">#E9A300</color>
+    <color name="healthOrange">#FF2617</color>
+    <color name="incomeOrange">#FD4834</color>
+    <color name="outcomeGreen">#00CF2D</color>
+</resources>

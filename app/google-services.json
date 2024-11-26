@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "190033702208",
+    "project_id": "wallet-a9935",
+    "storage_bucket": "wallet-a9935.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190033702208:android:7464c749a6b14d1cb8dea5",
+        "android_client_info": {
+          "package_name": "com.example.wallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190033702208-q20ehrrgqdh4hnu617l0m9cf6e4dtpu4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAg5GNT1VUwsNLeH5baPsJfbDn0afOwuAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "190033702208-q20ehrrgqdh4hnu617l0m9cf6e4dtpu4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

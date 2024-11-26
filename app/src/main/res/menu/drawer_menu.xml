@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/main_page"
+        android:title="@string/main"
+        android:icon="@drawable/main_page"/>
+
+    <item
+        android:id="@+id/invoice_page"
+        android:title="@string/invoice"
+        android:icon="@drawable/invoice_icone_16dp"/>
+    <item
+        android:id="@+id/graphics_page"
+        android:title="@string/graphics"
+        android:icon="@drawable/graphics_icon_14dp"/>
+    <item
+        android:id="@+id/reminder_page"
+        android:title="@string/reminder"
+        android:icon="@drawable/reminder_icone_14_18dp"/>
+    <item
+        android:id="@+id/share_with_frands_page"
+        android:title="@string/Sharewithfriends"
+        android:icon="@drawable/share_with_frends_14dp_16dp"/>
+    <item
+        android:id="@+id/contacting_the_developer_page"
+        android:title="@string/Contactingthedeveloper"
+        android:icon="@drawable/contacting_the_developer_16dp_12dp"/>
+</menu>
